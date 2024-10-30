@@ -1,6 +1,6 @@
 # Homework 1
 
-Clone this package in the `src` folder of your ROS 2 workspace. Check for missing dependencies
+## Clone this package in the `src` folder of your ROS 2 workspace. Check for missing dependencies
 
 $ git clone https://github.com/FedericoTr26/RL_Homework-1.git
 
