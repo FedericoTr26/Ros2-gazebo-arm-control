@@ -16,4 +16,6 @@ $ ros2 launch arm_gazebo arm_gazebo.launch.py
 $ ros2 run rqt_image_view rqt_image_view
 
 ## Run the node to read the joint states and send joint position commands
+on the second terminal:
+
 $ ros2 run arm_controller arm_controller_node
