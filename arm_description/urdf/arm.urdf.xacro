@@ -6,11 +6,7 @@
     <color rgba="1 0 0 1"/>
   </material>
   
-  <!-- Used for fixing robot -->
-  <link name="world"/>
-  <gazebo reference="world">
-      <static>true</static>
-  </gazebo>
+ 
 
   <link name="base_link">
     <visual>
