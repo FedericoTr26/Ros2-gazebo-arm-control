@@ -4,18 +4,18 @@ A ROS 2 and Gazebo Sim project that brings a manipulator from URDF/Xacro visuali
 
 [Technical report and demo screenshots](RL_HW1.pdf)
 
-## What we built
+## Implementation
 
-- Adapted the course manipulator description and replaced detailed collision meshes with simpler primitives.
-- Configured simulated joint position interfaces, a joint state broadcaster, and a position controller for four joints.
-- Added a simulated camera and bridged its images to ROS 2.
-- Implemented a C++ node that reads joint states and sends a single position command to the controller.
+- The course manipulator description was adapted to use simpler primitives for collision geometry.
+- The simulation was configured with joint position interfaces, a joint state broadcaster, and a position controller for four joints.
+- A simulated camera was added with a bridge that publishes its images to ROS 2.
+- A C++ node was implemented to read joint states and send a single position command to the controller.
 
 ## Run the demos
 
 Use ROS 2 Humble with Gazebo Sim, RViz 2, Xacro, and `ros2_control`. The simulation uses `ros_gz_sim`, `ros_ign_bridge`, and `ign_ros2_control`. Install `rqt_image_view` to inspect the camera stream.
 
-From the `src` directory of your ROS 2 workspace, clone the repository.
+Clone the repository from the `src` directory of the ROS 2 workspace.
 
 ```bash
 git clone https://github.com/FedericoTr26/RL_Homework-1.git
