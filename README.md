@@ -2,7 +2,7 @@
 
 A ROS 2 and Gazebo Sim project that brings a manipulator from URDF/Xacro visualization to simulated joint position control and camera streaming.
 
-[Technical report and demo screenshots](RL_HW1.pdf)
+[Technical report and demo screenshots](ros2-gazebo-arm-control.pdf)
 
 ## Implementation
 
